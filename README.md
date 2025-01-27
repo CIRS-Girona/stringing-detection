@@ -16,3 +16,16 @@ This repository contains python scripts implementing the computer vision approac
     ├── morphological_operation.py      # Refines images using morphological operations.
     ├── segmentation.py                 # Segments images based on color.
     ├── solve_pnp.py                    # Solves Perspective-n-Point for object localization.
+
+## How to use: 
+Below is an example of how to run the first script in this repository. The other scripts can be run in a similar way, with parameters adjusted based on your hardware setup. For detailed information about each script’s parameters, use the --help flag
+
+    python .\collect_data.py --serial_port COM4 --baud_rate 250000 --microscope_index 0 --cam_index 0 --micro_dir         micro_folder --flir_dir flir_folder
+
+# Machine learning approach
+We have not included specific code related to this section in the repository because the necessary tools and commands for training and evaluation are provided by the Darknet framework itself.
+For a detailed tutorial on how to use Darknet, refer to the following link:
+
+Darknet YOLO Tutorial
+
+Additionally, you can find the pretrained model that achieves high performance as well as the configuration file used in the link below:
