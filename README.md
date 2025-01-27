@@ -5,7 +5,7 @@ This repository contains a python code for detecting stringing in 3D printing, a
 ## Prerequisites
 The file requirements.txt contains the necessary Python packages for this project. To install, run:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 This repository contains python scripts implementing the computer vision approach for stringing detection in 3D printing.
 
