@@ -35,7 +35,7 @@ The code for training and evaluation is not included in this repository, as the 
 However, the pretrained model that achieves the best results, as reported in the paper, along with the corresponding configuration file, can be found at [this](https://drive.google.com/drive/folders/1d7YOXVxjQ_8nzqWe7IAnf6rIWBKOBMHv) link.
 
 # Citation
-If you find this repository, please consider giving us a star :star:
+If you find this repository useful, please consider giving us a star :star:
 
 ```
 @Article{jmmp9030074,
